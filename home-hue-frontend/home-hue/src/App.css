@@ -1,0 +1,277 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.logo-banner-img{
+ 
+  width: 100%;
+
+}
+.rooms-banner-img{
+  margin-top: 3em;
+  width: 100%;
+
+  
+}
+
+.banner-img{
+  width: 100%;
+  margin-bottom: 10em;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo{
+  height: 4em; 
+  width: 4em;
+}
+
+.navbar-search{
+
+  margin-bottom: -10px;
+  height: 2.5em;
+}
+
+
+
+#create-account-form, #login-form{
+  
+  margin: 0;
+  padding-top: 3em;
+  padding-left: 5em;
+  padding-right: 0;
+  width: 60em;
+}
+
+.login-logo{
+  height: 15em;
+  width: 15em;
+  position: relative;
+  margin-left: 19%;
+  margin-top: 4em;
+}
+.design-image {
+  margin-top: -10em;
+  margin-left: -25em;
+  height: 40em;
+  width: 40em;
+}
+
+.input{
+  border-style: none;
+
+}
+
+.navbar-user-image{
+  object-fit: cover;
+  object-position: center; /* Center the image within the element */
+   width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.navbar-user-name{
+  margin-left: 10px;
+}
+
+.user-page-home-button{
+  border: solid black 1px;
+  padding: 1em;
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+  margin: 2em;
+}
+.user-title-name{
+  margin-top: 2em;
+  margin-left: 2em
+}
+.room-image {
+  object-fit: cover !important;
+  object-position:  center !important;
+  overflow: hidden !important;
+  width: 290px !important;
+  height: 300px !important;
+}
+
+  /* .room-card{
+  margin-top: 0em;
+  } */
+
+  .image.photo-image{ 
+    object-fit: cover;
+    object-position: center;  /* Center the image within the element */
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+  }
+
+  .ui.card:first-child{
+    margin-top: auto;
+  }
+
+  .ui.card:last-child {
+    margin-bottom: auto;
+  }
+
+  /* .user-room-cards > .ui.card:first-child{
+    margin-top: 0;
+  } */
+
+
+  .room-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+
+  .photo-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .photo-card-container>*{
+    margin: 1em;
+  }
+
+
+
+ .user-page-nav{
+   display: flex;
+   justify-content: flex-start;
+   background-image: url('./usernav.png');
+   background-repeat: no-repeat;
+   
+ }
+ .user-page-nav > .user-page-icon {
+  margin: .5em;
+  padding-bottom: -10px;
+ }
+
+ .user-header-info{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  /* margin-right: 2em; */
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #bebcbc83;
+  box-shadow: 0 0 3px 3px  #bebcbc83 ;
+ }
+
+ .user-page-icon :hover{
+  height: 2.5em;
+  width: 2.5em;
+  color: grey;
+ }
+
+ .main-profile-picture{
+  object-fit: cover;
+  object-position: center; /* Center the image within the element */
+   width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid rgb(75, 74, 74) 2px;
+   
+ }
+
+ .rooms-container-content{
+   margin-top: 2em;
+   margin-bottom: 2em;
+   margin-left: 3em;
+   margin-right: 3em;
+   display: flex;
+  justify-content: space-between;
+  text-align: center;
+ }
+ 
+
+.room-page-header{
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  border-style: double;
+  border-width: 5px;
+}
+
+.room-page-actions{
+  justify-content: center;
+  text-align: center;
+}
+
+.add-photo-form{
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.301) ;
+  border-radius: 5px;
+}
+
+.final-choice{
+  width: 15px;
+  border: none;
+  background-color: white ;
+  margin-left: 1em;
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
